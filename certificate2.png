@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">Portfolio</div>
+        <nav class="desktop-nav">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="mobile-menu-btn" aria-label="Toggle menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </header>
+
+    <nav class="mobile-nav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Hi, I'm <span class="highlight">Hawinet Zewde</span></h1>
+          <h2>AI Technology Student | Frontend Web Developer</h2>
+          <p>
+            I create modern, responsive websites with HTML, CSS, and JavaScript,
+            and I also have experience with Python and C++.
+          </p>
+          <a href="#projects" class="btn">View My Work</a>
+        </div>
+        <div class="hero-image">
+          <img src="photo.jpg" alt="Profile Image" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I create responsive, user-focused websites using HTML, CSS, and
+              JavaScript. My strength lies in building clean, functional
+              interfaces that perform well across devices and browsers. With
+              growing skills in Python and C++, I also explore backend concepts
+              to better understand the full development process and improve the
+              way my frontends connect to real-world systems.
+            </p>
+            <p></p>
+            <p>
+              With over 2 years of experience, I’ve created a variety of
+              personal and learning-based projects using HTML, CSS, and
+              JavaScript. These projects have helped me build a strong
+              foundation in frontend development and improve my ability to
+              create responsive, user-friendly web interfaces.
+            </p>
+            <div class="social-links">
+              <a
+                href="https://github.com/Hawi-net"
+                class="social-link github"
+                target="_blank"
+                aria-label="GitHub"
+              ></a>
+              <a
+                href="https://linkedin.com/in/hawinet-zewde-4a5685356/"
+                class="social-link linkedin"
+                target="_blank"
+                aria-label="LinkedIn"
+              ></a>
+              <a
+                href="https://leetcode.com/u/pBn1rhan24"
+                class="social-link leetcode"
+                target="_blank"
+                aria-label="LeetCode"
+              ></a>
+              <a
+                href="https://shecodes.io/users/164617-hawinet-zewde"
+                class="social-link shecodes"
+                target="_blank"
+                aria-label="SheCodes"
+              ></a>
+            </div>
+          </div>
+          <div class="about-info">
+            <div class="info-item">
+              <h3>Name:</h3>
+              <p>Haiwnet Zewde</p>
+            </div>
+            <div class="info-item">
+              <h3>Email:</h3>
+              <p>hawinetzewde7@gmail.com</p>
+            </div>
+            <div class="info-item">
+              <h3>From:</h3>
+              <p>Addis Ababa, Ethiopia</p>
+            </div>
+            <div class="info-item">
+              <h3>Experience:</h3>
+              <p>2+ Years</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+          <div class="skill-category">
+            <h3>Frontend</h3>
+            <div class="skill" data-level="94">
+              <span>HTML</span>
+              <div class="skill-bar">
+                <div class="skill-level"></div>
+              </div>
+            </div>
+            <div class="skill" data-level="90">
+              <span>CSS</span>
+              <div class="skill-bar">
+                <div class="skill-level"></div>
+              </div>
+            </div>
+            <div class="skill" data-level="85">
+              <span>JavaScript</span>
+              <div class="skill-bar">
+                <div class="skill-level"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Backend</h3>
+            <div class="skill" data-level="75">
+              <span>C++</span>
+              <div class="skill-bar">
+                <div class="skill-level"></div>
+              </div>
+            </div>
+            <div class="skill" data-level="80">
+              <span>Python</span>
+              <div class="skill-bar">
+                <div class="skill-level"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+          <button class="filter-btn" data-filter="python">Python</button>
+          <button class="filter-btn" data-filter="C++">C++</button>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card" data-category="web">
+            <img src="yoga.png" alt="Project 1" />
+            <div class="project-info">
+              <h3>Yoga</h3>
+              <p>
+                Built a website for yoga learners with email reminders to
+                support memorization and practice consistency.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://www.shecodes.io/cohorts/2665/projects/2656351"
+                  target="_blank"
+                  class="btn-small"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/Hawi-net/Yoga-web-project"
+                  target="_blank"
+                  class="btn-small"
+                  >View Code</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="python">
+            <img src="password.png" alt="Project 2" />
+            <div class="project-info">
+              <h3>Password-Generator</h3>
+              <p>
+                Generates a random password which includes numbers, symbols,
+                etc.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Hawi-net/Password-Generator"
+                  target="_blank"
+                  class="btn-small"
+                >
+                  View Code</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="C++">
+            <img src="contact-book.png" alt="Project 3" />
+            <div class="project-info">
+              <h3>Simple-Contact-Book</h3>
+              <p>Saves Name and Phone number in a simple way.</p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Hawi-net/Simple-Contact-Book"
+                  target="_blank"
+                  class="btn-small"
+                  >View Code</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="web">
+            <img src="abnet.jpg" alt="Project 4" />
+            <div class="project-info">
+              <h3>Abnet School</h3>
+              <p>
+                Built an informational website for Abnet School to support
+                learners and connect potential supporters.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://www.shecodes.io/cohorts/2599/projects/2628724"
+                  target="_blank"
+                  class="btn-small"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/Hawi-net/Abnet-School"
+                  target="_blank"
+                  class="btn-small"
+                  >View Code</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificates" class="section">
+      <div class="container">
+        <h2 class="section-title">My Certificates</h2>
+        <div class="certificates-slider">
+          <div class="certificate-card">
+            <img src="certificate1.png" alt="Certificate 1" />
+            <div class="certificate-info">
+              <h3>Introduction to Coding</h3>
+              <p>Issued by: SheCodes</p>
+              <p>Date: May 2025</p>
+              <a
+                href="https://www.shecodes.io/certificates/013b911b153f943e6afc70233e9eb3c5"
+                target="_blank"
+                class="btn-small"
+                >View Certificate</a
+              >
+            </div>
+          </div>
+          <div class="certificate-card">
+            <img src="certificate2.png" alt="Certificate 2" />
+            <div class="certificate-info">
+              <h3>Introduction to Web Development</h3>
+              <p>Issued by: SheCodes</p>
+              <p>Date: June 2025</p>
+              <a
+                href="https://www.shecodes.io/certificates/e8ae26e2fc91227c7efec7c2cdc94a65"
+                target="_blank"
+                class="btn-small"
+                >View Certificate</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-container">
+          <div class="contact-info">
+            <h3>Get in Touch</h3>
+            <p>
+              Feel free to reach out for collaborations or just a friendly
+              hello!
+            </p>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>hawinetzewde7@gmail.com</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span>+251 991138668</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Addis Ababa, Ethiopia</span>
+            </div>
+          </div>
+          <form class="contact-form">
+            <div class="form-group">
+              <input type="text" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Your Email" required />
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Subject" />
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+        <div class="social-links">
+          <a
+            href="https://github.com/Hawi-net"
+            class="social-link github"
+            target="_blank"
+            aria-label="GitHub"
+          ></a>
+          <a
+            href="https://linkedin.com/in/hawinet-zewde-4a5685356/"
+            class="social-link linkedin"
+            target="_blank"
+            aria-label="LinkedIn"
+          ></a>
+          <a
+            href="https://leetcode.com/u/pBn1rhan24/"
+            class="social-link leetcode"
+            target="_blank"
+            aria-label="LeetCode"
+          ></a>
+          <a
+            href="https://shecodes.io/users/164617-hawinet-zewde"
+            class="social-link shecodes"
+            target="_blank"
+            aria-label="SheCodes"
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
